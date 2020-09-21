@@ -12,24 +12,40 @@
 </head>
 <body>
 <header>
-<h1 class="font-weight-normal">PHP</h1>    
+<h1 class="font-weight-normal">PHP</h1>
 </header>
 
 <main>
 <h2>Practice</h2>
+<!-- <ul class="row-indication">
+<li>aa</li>
+<li>ss</li>
+</ul>
+<ul class="row-indication">
+<li> -->
 <pre>
 <?php
-$i = 80;
-while ($i <= 300) {
-    print($i . "\n\n");    
+$i = 1;
+while ($i < 366) {
+    print($i . "\n\n");
     $i++;
 }
-
+?></pre>
+<!-- </li>
+<li> -->
+<pre>
+<?php
 for ($i=1; $i<=365; $i++) {
     print($i . "\n");
 }
 ?>
 </pre>
+<!-- </li>
+</ul> -->
+
+
+
+
 </main>
-</body>    
+</body>
 </html>
