@@ -12,7 +12,7 @@
 </head>
 <body>
 <header>
-<h1 class="font-weight-normal">PHP</h1>    
+<h1 class="font-weight-normal">PHP</h1>
 </header>
 
 <main>
@@ -20,9 +20,9 @@
 <pre>
 <?php
 $today = new DateTime();
-print($today->format('G時 i分 s秒')); 
+print($today->format('G時 i分 s秒'));
 ?>
 </pre>
 </main>
-</body>    
+</body>
 </html>
