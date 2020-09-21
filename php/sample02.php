@@ -12,16 +12,17 @@
 </head>
 <body>
 <header>
-<h1 class="font-weight-normal">PHP</h1>    
+<h1 class="font-weight-normal">PHP</h1>
 </header>
 
 <main>
 <h2>Practice</h2>
 <pre>
 <?php
-print(123+2*5/3);
+print(123+2*5/4 . "\n");
+print((123+2*5)/4);
 ?>
 </pre>
 </main>
-</body>    
+</body>
 </html>
