@@ -12,7 +12,7 @@
 </head>
 <body>
 <header>
-<h1 class="font-weight-normal">PHP</h1>
+<h1 class="font-weight-normal">PHP</h1>    
 </header>
 
 <main>
@@ -23,9 +23,9 @@ for ($i=1; $i<=365; $i++){
     $date = strtotime('+' . $i . 'day');
     print (date('n/j(D)', $date));
     print "\n";
-}
+endfor;
 ?>
 </pre>
 </main>
-</body>
+</body>    
 </html>

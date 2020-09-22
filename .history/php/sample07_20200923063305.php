@@ -27,5 +27,5 @@ for ($i=1; $i<=365; $i++){
 ?>
 </pre>
 </main>
-</body>
+</body>    
 </html>

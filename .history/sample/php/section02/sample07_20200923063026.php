@@ -12,7 +12,7 @@
 </head>
 <body>
 <header>
-<h1 class="font-weight-normal">PHP</h1>
+<h1 class="font-weight-normal">PHP</h1>    
 </header>
 
 <main>
@@ -27,5 +27,5 @@ for ($i=1; $i<=365; $i++){
 ?>
 </pre>
 </main>
-</body>
+</body>    
 </html>
