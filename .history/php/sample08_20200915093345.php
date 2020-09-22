@@ -19,12 +19,9 @@
 <h2>Practice</h2>
 <pre>
 <?php
-$success = file_put_contents('../../news_data/news.txt', '2018-06-01 ホームページをリニューアルしました');
-if ($success) {
-    print('ファイルへの書き込みが完了しました');
-} else {
-    print('書き込みに失敗しました。フォルダの権限などを確認してください。');
-}
+$week_name = ['日', '月', '火', '水', '木', '金', '土'];
+
+print ($week_name[date('w')]);
 ?>
 </pre>
 </main>
